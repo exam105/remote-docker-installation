@@ -36,8 +36,8 @@
         state: started
         enabled: yes
 
-# We can create an handlers in case we need to call in the future tasks to restart
-handlers:
+  # We can create an handlers in case we need to call in the future tasks to restart
+  handlers:
     - name: restart docker
       service: 
         name: docker 
